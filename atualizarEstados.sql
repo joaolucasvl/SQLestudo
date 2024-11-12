@@ -1,0 +1,12 @@
+UPDATE estados
+SET nome = 'Maranhão'
+WHERE sigla = 'MA'
+
+SELECT NOME FROM ESTADOS WHERE SIGLA = 'MA'
+
+UPDATE ESTADOS
+SET nome = 'Paraná',
+    populacao = 11.32
+WHERE sigla = 'PR'
+
+SELECT NOME, SIGLA, POPULACAO FROM ESTADOS WHERE SIGLA = 'PR'
